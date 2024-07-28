@@ -1,0 +1,7 @@
+s= open('aj.txt', 'r')
+content = s.read()
+d= open('blank.txt', 'w')
+d.write(content)
+print(f"Content copied  successfully.")
+d= open('blank.txt', 'r')
+print(d.read())
