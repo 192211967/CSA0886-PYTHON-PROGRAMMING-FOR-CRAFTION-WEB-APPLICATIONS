@@ -1,0 +1,5 @@
+ip=float(input("Enter the Number: "))
+sq=pow(ip,2)
+cb=pow(ip,3)
+print("The square is ",sq)
+print("The cube is ",cb)
